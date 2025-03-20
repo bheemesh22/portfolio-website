@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paidipati Bheemesh - Portfolio</title>
+
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Importing GSAP animation library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- Header section with navigation menu -->
+    <header>
+        <h1>Paidipati Bheemesh</h1>
+        <p>Web Developer | AI Enthusiast | Tech Creator</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with experience in AI, ML, and cybersecurity. Currently pursuing MCA.</p>
+    </section>
+
+    <!-- Skills section with animated progress bars -->
+    <section id="skills">
+        <h2>Skills</h2>
+        
+        <div class="skill">
+            <span>HTML, CSS, JavaScript</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span>Java, Dart, MySQL</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span>AI & Machine Learning</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span>Cybersecurity</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section with clickable project links -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>NeuroMate AI</h3>
+            <p>AI-powered chatbot for smart interactions.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>RoboMate</h3>
+            <p>AI-based virtual assistant for daily tasks.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="statusMessage"></p>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>© 2025 Paidipati Bheemesh. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Chatbot button and container -->
+    <button id="chatbot-toggle">💬 Ask RoboMate</button>
+    <div id="chatbot-box" class="hidden">
+        <iframe src="https://your-ai-chatbot-link.com"></iframe>
+    </div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

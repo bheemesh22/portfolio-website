@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #121212, #282828); /* Dark gradient background */
+    color: white;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #ff5733; /* Vibrant header color */
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1); /* Adds subtle shadow */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Skills Section */
+.progress-bar {
+    width: 80%;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Light background for progress bars */
+    margin: 10px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(135deg, #ff5733, #ffbd69); /* Gradient fill for progress */
+    transition: width 1s ease-in-out; /* Smooth progress animation */
+}
+
+/* Projects Section */
+.project {
+    background: #333; /* Dark background for project cards */
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2); /* Adds a glow effect */
+}
+
+/* Contact Section */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Button Styling */
+button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffbd69; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
+/* Chatbot Toggle Button */
+#chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff5733;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Chatbot Box */
+#chatbot-box {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background: #222;
+    display: none; /* Initially hidden */
+    border-radius: 10px;
+}
+
+/* Hide elements */
+.hidden {
+    display: none;
+}
