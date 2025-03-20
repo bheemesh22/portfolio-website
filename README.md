@@ -17,7 +17,7 @@ This project is a **personal portfolio website** designed to showcase my **skill
 
 ## 🚀 How to Run:
 1. Clone the repository using:  
-git clone https://github.com/YOUR-USERNAME/portfolio-website.git
+git clone [https://github.com/YOUR-USERNAME/portfolio-website.git](https://github.com/bheemesh22/portfolio-website.git)
 2. Open the project folder and launch `index.html` in a browser.  
 3. No additional setup required.  
 
